@@ -21,6 +21,11 @@
   ],
   "author": "David Kamer",
   "license": "MIT",
+  "homepage": "https://github.com/UniWrighte/https-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UniWrighte/https-manager.git"
+  },
   "bin": {
     "https-cli": "./bin/cli.js"
   },
