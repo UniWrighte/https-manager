@@ -1,0 +1,30 @@
+{
+  "name": "https-manager",
+  "version": "1.0.1",
+  "description": "Manage tls certificates for https requests in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "cert",
+    "key",
+    ".key",
+    ".crt",
+    "rootCA",
+    "certificate",
+    "authority"
+  ],
+  "author": "David Kamer",
+  "license": "MIT",
+  "bin": {
+    "https-cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "node-forge": "^0.8.2"
+  }
+}
